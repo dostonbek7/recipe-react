@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+  .site-container{
+    @apply max-w-7xl m-auto
+  }
+  html,body,#root{
+    @apply h-full
+  }
+}
